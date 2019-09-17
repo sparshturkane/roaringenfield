@@ -1,3 +1,4 @@
+DirectoryIndex index.html index.php
 <FilesMatch "\.(ttf|otf|eot|woff|svg)$">
     <IfModule mod_headers.c>
         SetEnvIf Origin "http(s)?://(cdn|sub)\.domain\.com$" AccessControlAllowOrigin=$0
