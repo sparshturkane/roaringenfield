@@ -67,9 +67,9 @@
       var g, h, i, j, k = b.createElement("canvas"),
         l = k.getContext && k.getContext("2d");
       for (j = Array("flag", "emoji"), c.supports = {
-          everything: !0,
-          everythingExceptFlag: !0
-        }, i = 0; i < j.length; i++) c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c
+        everything: !0,
+        everythingExceptFlag: !0
+      }, i = 0; i < j.length; i++) c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c
         .supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c
           .supports[j[i]]);
       c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c
@@ -81,7 +81,7 @@
           a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function () {
             "complete" === b.readyState && c.readyCallback()
           })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g
-          .wpemoji)))
+            .wpemoji)))
     }(window, document, window._wpemojiSettings);
   </script>
   <link rel='stylesheet' id='elementor-post-500-css'
@@ -133,18 +133,18 @@
           s = 0,
           h = 0;
         if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {
-            f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
-          }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e
+          f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+        }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e
           .gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e
-          .sliderLayout) {
+            .sliderLayout) {
           var u = (e.c.width(), jQuery(window).height());
           if (void 0 != e.fullScreenOffsetContainer) {
             var c = e.fullScreenOffsetContainer.split(",");
             if (c) jQuery.each(c, function (e, i) {
-                u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
-              }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset
+              u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+            }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset
               .length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e
-              .fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                .fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
           }
           f = u
         } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
@@ -188,6 +188,12 @@
 
     body .container {
       max-width: 1440px
+    }
+  </style>
+
+  <style>
+    .entry-timeline {
+      padding-top: 60px;
     }
   </style>
 </head>
@@ -246,7 +252,7 @@
                               data-settings="{&quot;layout&quot;:&quot;horizontal&quot;}"
                               data-widget_type="opal-nav-menu.default">
                               <div class="elementor-widget-container">
-                                  <nav data-subMenusMinWidth="250" data-subMenusMaxWidth="500"
+                                <nav data-subMenusMinWidth="250" data-subMenusMaxWidth="500"
                                   class="opalelementor-nav-menu--main opalelementor-nav-menu__container opalelementor-nav-menu--layout-horizontal e--pointer-none">
                                   <ul id="menu-1-0b1edd2" class="opalelementor-nav-menu">
                                     <li
@@ -324,7 +330,7 @@
                                   action="http://demo2.themelexus.com/bikersclub" method="get">
                                   <div class="elementor-search-form__toggle"> <i class="fa fa-search"
                                       aria-hidden="true"></i></div>
-                                  <div class="elementor-search-form__container"> 
+                                  <div class="elementor-search-form__container">
                                     <!-- <input placeholder="Search..."
                                       class="elementor-search-form__input" type="search" name="s" title="Search"
                                       value=""> -->
@@ -350,8 +356,8 @@
         <div class="container">
           <div class="breadcrumbs_title">
             <h1 class="title">About Us</h1>
-          </div> <!-- Breadcrumb NavXT 6.3.0 --> 
-          
+          </div> <!-- Breadcrumb NavXT 6.3.0 -->
+
         </div>
       </div>
       <div class="site-content">
@@ -389,8 +395,7 @@
                                                   <!-- Event Image -->
                                                   <div class="tribe-event-box-image">
                                                     <!-- Event Image -->
-                                                    <div class="tribe-events-event-image"><a
-                                                        href="#" tabindex="-1"><img
+                                                    <div class="tribe-events-event-image"><a href="#" tabindex="-1"><img
                                                           width="900" height="572"
                                                           src="../wp-content/uploads/2017/08/event-10.jpg"
                                                           class="attachment-full size-full wp-post-image" alt=""
@@ -399,8 +404,7 @@
                                                   </div>
                                                   <div class="tribe-event-duration"> <span
                                                       class="tribe-event-date-start">FOUNDER</span></div>
-                                                  <h4 class="tribe-event-title"> <a
-                                                      href="#" rel="bookmark">
+                                                  <h4 class="tribe-event-title"> <a href="#" rel="bookmark">
                                                       Dharmesh Pathare
                                                     </a>
                                                   </h4>
@@ -415,8 +419,7 @@
                                                   <!-- Event Image -->
                                                   <div class="tribe-event-box-image">
                                                     <!-- Event Image -->
-                                                    <div class="tribe-events-event-image"><a
-                                                        href="#" tabindex="-1"><img
+                                                    <div class="tribe-events-event-image"><a href="#" tabindex="-1"><img
                                                           width="900" height="572"
                                                           src="../wp-content/uploads/2017/08/rishi.jpg"
                                                           class="attachment-full size-full wp-post-image" alt=""
@@ -425,8 +428,8 @@
                                                   </div>
                                                   <div class="tribe-event-duration"> <span
                                                       class="tribe-event-date-start">CO-FOUNDER</span></div>
-                                                  <h4 class="tribe-event-title"> <a
-                                                      href="#" rel="bookmark">Rishi Dubey</a></h4>
+                                                  <h4 class="tribe-event-title"> <a href="#" rel="bookmark">Rishi
+                                                      Dubey</a></h4>
                                                   <p></p>
                                                 </div> <!-- /.tribe-item -->
                                               </div> <!-- /.event-item1 -->
@@ -438,8 +441,7 @@
                                                   <!-- Event Image -->
                                                   <div class="tribe-event-box-image">
                                                     <!-- Event Image -->
-                                                    <div class="tribe-events-event-image"><a
-                                                        href="#" tabindex="-1"><img
+                                                    <div class="tribe-events-event-image"><a href="#" tabindex="-1"><img
                                                           width="900" height="572"
                                                           src="../wp-content/uploads/2017/08/abby.jpg"
                                                           class="attachment-full size-full wp-post-image" alt=""
@@ -448,8 +450,8 @@
                                                   </div>
                                                   <div class="tribe-event-duration"> <span
                                                       class="tribe-event-date-start">MANAGEMENT</span></div>
-                                                  <h4 class="tribe-event-title"> <a
-                                                      href="#" rel="bookmark">Abhinav Mishra</a></h4>
+                                                  <h4 class="tribe-event-title"> <a href="#" rel="bookmark">Abhinav
+                                                      Mishra</a></h4>
                                                   <p></p>
                                                 </div> <!-- /.tribe-item -->
                                               </div> <!-- /.event-item1 -->
@@ -461,9 +463,8 @@
                                                   <!-- Event Image -->
                                                   <div class="tribe-event-box-image">
                                                     <!-- Event Image -->
-                                                    <div class="tribe-events-event-image"><a
-                                                        href="#"
-                                                        tabindex="-1"><img width="900" height="572"
+                                                    <div class="tribe-events-event-image"><a href="#" tabindex="-1"><img
+                                                          width="900" height="572"
                                                           src="../wp-content/uploads/2017/08/Shirkanth.jpg"
                                                           class="attachment-full size-full wp-post-image" alt=""
                                                           srcset="../wp-content/uploads/2017/08/Shirkanth.jpg 900w, ../wp-content/uploads/2017/08/Shirkanth.jpg 320w, ../wp-content/uploads/2017/08/Shirkanth.jpg 768w, ../wp-content/uploads/2017/08/Shirkanth.jpg 660w"
@@ -485,8 +486,7 @@
                                                   <!-- Event Image -->
                                                   <div class="tribe-event-box-image">
                                                     <!-- Event Image -->
-                                                    <div class="tribe-events-event-image"><a
-                                                        href="#" tabindex="-1"><img
+                                                    <div class="tribe-events-event-image"><a href="#" tabindex="-1"><img
                                                           width="900" height="572"
                                                           src="../wp-content/uploads/2017/08/nitin.jpg"
                                                           class="attachment-full size-full wp-post-image" alt=""
@@ -496,12 +496,35 @@
                                                   <div class="tribe-event-duration"> <span
                                                       class="tribe-event-date-start">MANAGEMENT</span></div>
                                                   <h4 class="tribe-event-title"> <a
-                                                      href="../event/circle-of-life-mc/index.html" rel="bookmark">Nitin Singh</a></h4>
+                                                      href="../event/circle-of-life-mc/index.html" rel="bookmark">Nitin
+                                                      Singh</a></h4>
                                                   <p></p>
                                                 </div> <!-- /.tribe-item -->
                                               </div> <!-- /.event-item1 -->
                                             </div>
-                                            
+                                            <div class="entry-timeline">
+                                                <div class="event-item1 event">
+                                                  <div
+                                                    class="tribe-item type-tribe_events post-3597 tribe-clearfix tribe-events-venue-3373 tribe-events-organizer-3369 tribe-events-first tribe-events-last">
+                                                    <!-- Event Image -->
+                                                    <div class="tribe-event-box-image">
+                                                      <!-- Event Image -->
+                                                      <div class="tribe-events-event-image"><a href="#" tabindex="-1"><img
+                                                            width="900" height="572"
+                                                            src="../wp-content/uploads/2017/08/pankaj.jpeg"
+                                                            class="attachment-full size-full wp-post-image" alt=""
+                                                            srcset="../wp-content/uploads/2017/08/pankaj.jpeg 900w, ../wp-content/uploads/2017/08/pankaj.jpeg 320w, ../wp-content/uploads/2017/08/pankaj.jpeg 768w, ../wp-content/uploads/2017/08/pankaj.jpeg 660w"
+                                                            sizes="(max-width: 900px) 100vw, 900px" /></a></div>
+                                                    </div>
+                                                    <div class="tribe-event-duration"> <span
+                                                        class="tribe-event-date-start">MANAGEMENT</span></div>
+                                                    <h4 class="tribe-event-title"> <a
+                                                        href="../event/circle-of-life-mc/index.html" rel="bookmark">Pankaj Kurade</a></h4>
+                                                    <p></p>
+                                                  </div> <!-- /.tribe-item -->
+                                                </div> <!-- /.event-item1 -->
+                                              </div>
+
                                           </div><!-- .tribe-list-widget -->
                                         </div>
                                       </div>
@@ -555,7 +578,7 @@
                                           data-widget_type="opal-site-logo.default">
                                           <div class="elementor-widget-container">
                                             <div class="elementor-image"> <a
-                                                href="http://demo2.themelexus.com/bikersclub"
+                                                href="../index.html"
                                                 data-elementor-open-lightbox=""> <img width="200" height="104"
                                                   src="../wp-content/uploads/2017/08/logo-footer.png"
                                                   class="attachment-full size-full" alt="" /> </a></div>
@@ -585,7 +608,7 @@
                                           data-widget_type="text-editor.default">
                                           <div class="elementor-widget-container">
                                             <div class="elementor-text-editor elementor-clearfix">
-                                              <p>360 King Burger Turkey, Pai 17680</p>
+                                              <p>Miraroad, Thane, Maharashata, India</p>
                                             </div>
                                           </div>
                                         </div>
@@ -721,7 +744,7 @@
                                           data-widget_type="text-editor.default">
                                           <div class="elementor-widget-container">
                                             <div class="elementor-text-editor elementor-clearfix">
-                                           
+
                                             </div>
                                           </div>
                                         </div>
@@ -1040,17 +1063,17 @@
         </form> -->
       </div>
       <div class="offcanvas-content">
-          <ul id="menu-156760804087-112c8e3" class="opalelementor-nav-menu">
-            <li
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-187">
-              <a href="index.html" class="opalelementor-item">Home</a>
-            </li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4055"><a
-                href="about.html" class="opalelementor-item">About Us</a>
-              </ul>
-            </li>
-          </ul>
-        </div>
+        <ul id="menu-156760804087-112c8e3" class="opalelementor-nav-menu">
+          <li
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-187">
+            <a href="index.html" class="opalelementor-item">Home</a>
+          </li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4055"><a
+              href="about.html" class="opalelementor-item">About Us</a>
+        </ul>
+        </li>
+        </ul>
+      </div>
       <!-- <div class="offcanvas-bottom"> <a href="../cart/index.html"> <i class="fa  fa-shopping-cart"></i> My shopping cart
         </a> <a href="../my-account/index.html"> <i class="fa fa-user"></i> Account </a></div> -->
     </div>
